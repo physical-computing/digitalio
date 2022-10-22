@@ -10,8 +10,7 @@ void setup() {
 
 void loop() {
   ir_value = digitalRead(ir);
-  if (ir_value > 0) {
-    Serial.println(ir_value);
-    digitalWrite(led, ir_value);
-  }
+  digitalWrite(led, ir_value);
+  Serial.println(ir_value);
+
 }
