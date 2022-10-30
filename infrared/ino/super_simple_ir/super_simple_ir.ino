@@ -1,4 +1,4 @@
-int led = LED_BUILTIN;
+int led = 9;
 int ir = 7;
 int ir_value = 0;
 
