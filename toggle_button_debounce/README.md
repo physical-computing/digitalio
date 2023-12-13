@@ -7,3 +7,7 @@ The effect of this could be like rapidly turning a light switch on and off, even
 Debouncing is a mechanism to mitigate this problem. A simple debouncing technique, like the one implemented in the provided code, waits for a short period after detecting the button press or release to see if the button's state stablizes, thereby confirming that the button press/release is genuine and not just a result of "bouncing".
 Ignoring debouncing may lead to erratic behavior on any system waiting for a clean digital input.
 For complex projects where instantaneous button input readings are crucial, hardware debouncing or more advanced software debouncing algorithms can be used.
+
+> [!TIP]
+> A way better non blocking implementation of debouncing can be found [here](https://docs.arduino.cc/built-in-examples/digital/Debounce).
+> For the sake of the simplicity of the workshop we use this blocking implementation.
