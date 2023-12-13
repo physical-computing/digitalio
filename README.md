@@ -1,6 +1,6 @@
-# digitalio
+# Digital Input/Output (digitalio)
 
-These sketches where part of the course ["Input Output (Eingabe Ausgabe) Fundamentals of process-oriented design."](https://interface.fh-potsdam.de/eingabe-ausgabe/).
+These sketches where part of several courses at University of Applied Sciences Potsdam, Art University Weissensee Berlin, University of Art Braunschweig.
 
 Most of the examples are build for the Arduino Uno and the Raspberry Pi. Use at your own risk.
 
