@@ -1,4 +1,8 @@
-# Why debouncing a button
+# Toggle Button and Debounce
+
+![](toggle_button_debounce_bb.png)
+
+## Why debouncing a button
 
 Debouncing is often necessary for pushbuttons and switches.
 
